@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "TaatikLi",
+  "version": "1.0",
+
+  "description": "hebrew-arabic letter-by-letter translation",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "background": {
+       "scripts": ["taatik.js"]
+   },
+  "permissions": ["menus", "clipboardWrite"]
+}
