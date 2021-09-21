@@ -2,16 +2,19 @@
 
   "manifest_version": 2,
   "name": "TaatikLi",
-  "version": "1.0",
+  "version": "0.0.1",
 
-  "description": "hebrew-arabic letter-by-letter translation",
+  "description": "Hebrew-Arabic letter-by-letter transliteration (Taatik), for Hebrew speakers who learn Arabic but don't know the alphabet yet",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "16": "icon.png",
+	"32": "icon.png",
+	"48": "icon.png",
+	"128": "icon.png"
   },
 
   "background": {
        "scripts": ["taatik.js"]
    },
-  "permissions": ["menus", "clipboardWrite"]
+  "permissions": ["contextMenus", "clipboardWrite"]
 }
